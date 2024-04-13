@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const User = require('../models/user/user.js');
 
 module.exports = function(passport) {
+    // sure
   // Local strategy for email and password authentication
   passport.use(new LocalStrategy({
     usernameField: 'email'
